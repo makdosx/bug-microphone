@@ -35,9 +35,9 @@ do
     timeout 10 arecord -vv bugs$counter
 
 
-HOST='maksounds.co.nf'
-USER='2381771'
-PASSWD='OnlM345grr0*-InSeR0dDsn2'
+HOST='your_host'
+USER='your_username'
+PASSWD='your_password'
 FILE="bugs$counter"
 
 ftp -n $HOST <<END_SCRIPT
