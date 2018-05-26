@@ -18,7 +18,7 @@
  4)  The fourth way is to convert your usb drive to a bug and to intercept the conversations 
      while you use it on the computer <br><br>
     
-     To convert the USB drive to a bug, copy the files located in the autorun folder to the root of your usb. <br>br>
+     To convert the USB drive to a bug, copy the files located in the autorun folder to the root of your usb. <br><br><br>
 
 
 
