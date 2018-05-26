@@ -39,13 +39,34 @@
 
 #respawn
 
-#exec /var/www/sniff/microphone/bug.sh
+#exec /var/www/microphone/bug.sh
 
 
 #EOF
 
 
-#ln -s /var/www/microphone/bug_auto.sh /etc/init.d/bug
+
+#cat <<EOF >/etc/init.d/bug
+
+# #! /bin/bash
+
+# case "$1" in
+#  start)
+#    echo "Starting Foo..."
+#    sudo -u foo-user bash -c 'cd /path/to/scripts/ && ./bug.sh'
+#    ;;
+#  stop)
+#    echo "Stopping Foo..."
+#    sudo -u foo-user bash -c 'cd /path/to/scripts/ && ./bug.sh'
+#    sleep 2
+#    ;;
+#  *)
+#    echo "Usage: /etc/init.d/foo {start|stop}"
+#    exit 1
+#    ;;
+#esac
+
+#EOF
 
 #update-rc.d bug defaults
 
