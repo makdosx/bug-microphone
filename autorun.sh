@@ -45,7 +45,7 @@
 #EOF
 
 
-#ln -s /var/www/sniff/microphone/bug_auto.sh /etc/init.d/bug
+#ln -s /var/www/microphone/bug_auto.sh /etc/init.d/bug
 
 #update-rc.d bug defaults
 
